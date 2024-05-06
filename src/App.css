@@ -1,7 +1,7 @@
-main {
-  height: 100vh;
-  width: 100vw;
-  background-color: rgba(233, 243, 236, 0.315);
-  display: flex;
-  justify-content: center;
+@import url("https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+body {
+  font-family: "Quantico", serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(49, 49, 49);
 }
