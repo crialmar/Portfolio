@@ -1,13 +1,25 @@
+import "./Home.css";
+
 export const Home = () => {
   return (
-    <div className="home__container">
-      <div className="title">
-        <h1>Buenas!! Me llamo Cris</h1>
-      </div>
-      <div className="title2">
-        <h2>Soy Full-Stack junior y este es </h2>
-        <h2>mi portfolio</h2>
-      </div>
-    </div>
+    <>
+      <section className="home__container">
+        <div className="home-content1">
+          <h1>
+            ¡Buenas!
+            <span className="wave" role="img" aria-labelledby="wave">
+              👋🏻
+            </span>
+          </h1>
+          <h1>
+            SOY <strong className="main_name">CRISTINA ALMARZA GONZÁLEZ</strong>
+          </h1>
+          <h1 className="wd">🚀 Web developer 🚀</h1>
+        </div>
+        <div className="home-content2">
+          <h1>aksjdflkajsl</h1>
+        </div>
+      </section>
+    </>
   );
 };

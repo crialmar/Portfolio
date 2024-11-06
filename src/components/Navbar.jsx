@@ -7,7 +7,7 @@ export const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
-        Home
+        Crialmar
       </a>
       <div className={styles.menu}>
         <img
@@ -25,13 +25,10 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="about">Sobre mí</a>
+            <a href="aboutme">Sobre mí</a>
           </li>
           <li>
-            <a href="projects">Proyectos</a>
-          </li>
-          <li>
-            <a href="contact">Contacto</a>
+            <a href="proyects">Proyectos</a>
           </li>
           <li>
             <a href="cv">Mi CV</a>

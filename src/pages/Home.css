@@ -1,12 +1,25 @@
 .home__container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: column;
+  align-content: center;
+  padding: 200px;
+  /* color: rgb(255, 255, 255);
+  justify-content: left;
   h1 {
-    color: rgb(255, 255, 255);
+    font-size: 30px;
+  } */
+
+  .home-content1 {
+    .main_name {
+      color: rgb(172, 117, 223);
+      font-size: 40px;
+    }
+    .wd {
+      padding: 20px 0 0 0;
+      color: rgb(172, 117, 223);
+    }
   }
 
-  .title2 {
-    color: white;
+  .home-content2 {
+    padding: 50px 0 0 0;
   }
 }
