@@ -1,0 +1,16 @@
+.about-me {
+  display: column;
+  align-content: center;
+  padding: 150px;
+
+  .title-about {
+    color: rgb(172, 117, 223);
+    font-size: 40px;
+    padding: 0 0 20px 0;
+  }
+
+  .stack {
+    padding: 0 0 10px 0;
+    text-decoration: solid;
+  }
+}
